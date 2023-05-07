@@ -1,0 +1,15 @@
+<single-spa-router>
+  <div style="display: flex">
+    <nav style="position: sticky; top: 0; height: 100vh">
+      <application name="@dasa-mfe/app-navbar-calender"></application>
+    </nav>
+    <main style="height: 500vh; flex-grow: 1">
+      <route path="vehicle">
+        <application name="@dasa-mfe/app-vehicle-calender"></application>
+      </route>
+      <route path="room">
+        <application name="@dasa-mfe/app-room-calender"></application>
+      </route>
+    </main>
+  </div>
+</single-spa-router>
